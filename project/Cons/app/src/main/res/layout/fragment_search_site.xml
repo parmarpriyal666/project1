@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back5"
+    android:orientation="vertical"
+    tools:context="com.example.ganesh.cons.SearchSiteFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Search site"
+        android:layout_marginTop="12dp"
+        android:paddingLeft="20dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ssite"
+        android:drawableLeft="@drawable/ic_site_black_24dp"
+        android:inputType="text"
+        android:hint="Site Name"
+        android:textSize="15dp"
+        style="@style/edittext_style"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:id="@+id/sites"
+        style="@style/button_background"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>

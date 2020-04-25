@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Cons</string>
+    <string name="title_activity_main">E-build Up</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="large_text">
+        <b>
+       WELCOME."
+
+    Construction Management System is Used for helping keep Record of Workers and Raw Material used into construction or Which Raw Material are Required in further Construction.
+
+    Important for Customers,Contractor and Builder who want to know about what going on it's site and what action might be Required.
+    this app.
+
+    We provides the following Features in Our System:
+
+    ->Show the status of site.
+    ->Workers Information.
+    ->Material Status.
+    ->Previous Work Details.
+    ->Gallery
+    ->payment Receipt.
+
+    Includes wireless features for anytime,anywhere communication.User can message if they have to
+    know anything about construction system and admin give them reply related to their question.
+
+    Thank you.
+</b>
+    </string>
+    <string name="large_text1">
+
+         " 1. View Sample Demo \n\n"
+         " 2. View Site/Houses Pictures. \n\n"
+         " 3  View Site Information. \n\n"
+         " 4. View Customer current site status \n\n"
+         " 5. View how much raw material and what kind of raw material are used \n\n"
+   </string>
+    <string name="title_activity_afteradmin">afteradmin</string>
+    <string name="title_activity_aftermanager">aftermanager</string>
+
+</resources>

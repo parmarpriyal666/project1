@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back5"
+    android:orientation="vertical"
+    tools:context="com.example.ganesh.cons.AdminFragment"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200px"
+        android:layout_height="300px"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+
+        android:src="@drawable/icon5" />
+
+    <EditText
+        android:id="@+id/un"
+        style="@style/edittext_style"
+        android:layout_marginTop="25dp"
+        android:hint="EMAIL-ID"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:inputType="textPersonName"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/pword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PASSWORD"
+        android:textColor="#000000"
+        style="@style/edittext_style"
+        android:drawableLeft="@drawable/ic_pwd"
+        android:textSize="15dp"
+        android:inputType="number"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/fp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:paddingTop="3dp"
+        android:layout_marginRight="20dp"
+        android:textSize="16dp"
+        android:text="Forgot Password?"
+        android:textColor="#ffffff"/>
+
+
+    <Button
+        android:id="@+id/save"
+        style="@style/button_background"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.05"
+        android:text="Login" />
+    <TextView
+        android:id="@+id/cnew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?Sign up"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="#ffffff" />
+
+
+</LinearLayout>
+
+
